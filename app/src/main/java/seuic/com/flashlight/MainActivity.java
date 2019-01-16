@@ -32,6 +32,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
 
 
+		//添加多一句注解
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             manager = (CameraManager) getSystemService(Context.CAMERA_SERVICE);
         }
