@@ -85,7 +85,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
      * @return
      */
     private void lightSwitch(final boolean lightStatus) {
-        //第三次提交，
+        //第三次提交，再添加一句
         if (lightStatus) { // 关闭手电筒
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                 try {
